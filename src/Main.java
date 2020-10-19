@@ -24,7 +24,7 @@ import java.util.Scanner;
             System.out.println("Введіть довжину ряду Фібоначчі");
             int length_fib_ = in.nextInt();
             fibobj.Set_length(length_fib_);
-            fibobj.Fibonacci(obj, inobj.Get_x(), inobj.Get_y());
+            fibobj.Fibonacci(inobj.Get_x(), inobj.Get_y());
             fibobj.Percentage_Out();
         }
     }
@@ -86,7 +86,7 @@ import java.util.Scanner;
          * Метод  Fibonacci() будує ряд Фібоначчі, де першим числом є найбільше непарне і друге парне,
          * довжину ряду вводить користувач
          */
-        void Fibonacci(Main obj, int x , int y){
+        void Fibonacci(int x , int y){
             if((y % 2)!= 0) {
                 first_num = y;
                 second_num = y - 1;

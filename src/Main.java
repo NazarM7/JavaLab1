@@ -118,7 +118,6 @@ import java.util.Scanner;
             System.out.println("Відсоток непарних чисел з ряду Фібоначчі: " + Percentage(odd_numb, length_fib) + "%");
             System.out.println();
         }
-
         /**
          * Метод Percentage () Виводить відсоток парних і непарних чисел
          * @return повернення відсотку чисел
